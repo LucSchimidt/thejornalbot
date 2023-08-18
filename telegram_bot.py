@@ -4,8 +4,6 @@ from news_parser import *
 
 class TheJornalBot():
 
-    #Key do Bot: #Token do Bot: 5491245870:AAEtvN233Q2FKL0nTjRj8oZ0BNtU6XGsjJo
-
     def __init__(self, api_key) -> None:
         self.api_key = api_key
         self.bot = telebot.TeleBot(self.api_key)
